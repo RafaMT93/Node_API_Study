@@ -1,9 +1,15 @@
 const express = require('express');
 const app = express();
-const fs = require('fs');
+
+//Resolvers
+const { getMovies, getMovieForId } = require('./moviesResolvers/get');
+const { postMovie } = require('./moviesResolvers/post');
+const { putMovie } = require('./moviesResolvers/put');
+const { deleteMovie } = require('./moviesResolvers/delete');
 
 const movies = require('./data/movies.json');
 
+//Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended:true }));
 
@@ -11,50 +17,18 @@ app.route('/').get((req, res) => {
     res.send('Movies API');
 });
 
-app.route('/movies')
-.get((req, res) => {
-    res.header("Content-Type",'application/json');
-    res.status(200).send(JSON.stringify(movies, null, 3));
+app.route('/movies').get((req, res) => {
+    return getMovies(req, res, movies);
 }).post((req, res) => {
-    const { id, name, photo, description, casting } = req.body;
-    const movie = { id, name, photo, description, casting };
-    const findMovie = movies.find(movie => movie.id === id);
-    if(findMovie) return res.status(403).send("Já existe um filme com este ID cadastrado");
-    movies.push(movie);
-    fs.writeFile('./src/data/movies.json', JSON.stringify(movies), err => {
-        if(err) throw err;
-        res.status(201).send(movies);
-    });
+    return postMovie(req, res, movies);
 });
 
 app.route('/movies/:id').get((req, res) => {
-    const id = req.params.id;
-    const movie = movies.find(movie => movie.id === id);
-    if(!movie) return res.status(400).json("Movie not found!");
-    return res.status(200).send(movie);
+    return getMovieForId(req, res, movies);
 }).put((req, res) => {
-    const { id } = req.params;
-    const { name, photo, description, casting } = req.body;
-    const movie = { id, name, photo, description, casting };
-    const movieIndex = movies.findIndex(movie => movie.id === id);
-    if(movieIndex < 0) return res.status(400).json("Movie not found!");
-    movie.id = id;
-    movie.name = name ? name : movie.name;
-    movie.photo = photo ? photo : movie.photo;
-    movie.description = description ? description : movie.description;
-    movie.casting = casting ? casting : movie.casting;
-    fs.writeFile('./src/data/movies.json', JSON.stringify(movies), err => {
-        if(err) throw err;
-        res.status(200).send(movies);
-    });
+    return putMovie(req, res, movies);
 }).delete((req, res) => {
-    const { id } = req.params;
-    const movieIndex = movies.findIndex(movie => movie.id === id);
-    if(movieIndex < 0) return res.status(404).json("Movie not found!");
-    fs.writeFile('./src/data/movies.json', JSON.stringify(movies), err => {
-        if(err) throw err;
-        res.status(204).send("Movie deleted!");
-    });
+    return deleteMovie(req, res, movies);
 });
 
 app.route("*").get((req, res) => res.send("404 not found!"));
