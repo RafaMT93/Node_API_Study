@@ -1,1 +1,72 @@
-[{"id":"1","name":"Breaking Bad","photo":"https://i.pinimg.com/564x/43/26/e5/4326e5fca390273537896dfa17f2b018.jpg","description":"Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.","casting":"Bryan Cranston,Aaron Paul,Anna Gunn"},{"id":"2","name":"Jhon Wick","photo":"https://i.pinimg.com/736x/ed/3d/f4/ed3df4cffbfafec150989b666ae9a68a.jpg","description":"John Wick é um lendário assassino de aluguel aposentado, lidando com o luto após perder o grande amor de sua vida. Quando um gângster invade sua casa, mata seu cachorro e rouba seu carro, ele é forçado a voltar à ativa e inicia sua vingança.","casting":"Alfie Allen, Dean Winters, John Leguizamo, Keanu Reeves, Michael Nyqvist, Willem Dafoe"},{"id":"3","name":"Black Summer","photo":"https://i.pinimg.com/736x/e6/5a/3a/e65a3a4a13f4c0533bc1a74dd38673fb.jpg","description":"Nos primeiros dias de um sombrio apocalipse zumbi, estranhos se unem para sobreviver e voltar para aqueles que amam.","casting":"Jaime King,Justin Chu Cary,Christine Lee"},{"id":"4","name":"A Era do Gelo 4","photo":"https://i.pinimg.com/originals/71/63/5e/71635ee4e257edbef3f71e60b8226749.jpg","description":"A louca perseguição de Scrat sempre à caça de sua noz inquieta - perseguição à qual ele tem se dedicado desde os primórdios dos tempos - tem consequências que mudam o mundo e causam um cataclismo continental que leva Manny, Diego e Sid a viverem a maior aventura de todos os tempos.","casting":"Alessandra Vieira, Angélica Borges, Carolina Vieira,Christiane Louise, Carlos Gesteira"},{"id":"5","name":"The Witcher","photo":"https://i.pinimg.com/736x/6c/40/3e/6c403ecb280e490fc89d6c58439158a4.jpg","description":"O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.","casting":"Henry Cavill,Anya Chalotra,Freya Allan"},{"id":"6","name":"O Mentalista","photo":"https://i.pinimg.com/originals/69/d2/ab/69d2ab8af047c6698ddeb7af447d96e6.jpg","description":"Um famoso (médium) se autointitula e começa a trabalhar como consultor do California Bureau of Investigation para encontrar (Red John), o louco que matou sua esposa e filha.","casting":"Amanda Righetti,Owain Yeoman ,Tim Kang,Robin Tunney,Simon Baker"},{"id":"7","name":"Narcos","photo":"https://br.web.img2.acsta.net/pictures/15/07/29/14/06/297599.jpg","description":"A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.","casting":"Wagner Moura,Pedro Pascal,Boyd Holbrook"},{"id":"8","name":"O Senhor dos Anéis: A Sociedade do Anel","photo":"https://i.pinimg.com/564x/1a/49/7f/1a497fdb8d52cce17e37bb7f062c8603.jpg","description":"Em uma terra fantástica e única, um hobbit recebe de presente de seu tio um anel mágico e maligno que precisa ser destruído antes que caia nas mãos do mal. Para isso, o hobbit Frodo tem um caminho árduo pela frente, onde encontra perigo, medo e seres bizarros. Ao seu lado para o cumprimento desta jornada, ele aos poucos pode contar com outros hobbits, um elfo, um anão, dois humanos e um mago, totalizando nove seres que formam a Sociedade do Anel.","casting":"Elijah Wood, Viggo Mortensen, Ian McKellen, Cate Blanchett, Sean Astin, Orlando Bloom"},{"id":"9","name":"O Senhor dos Anéis: As duas torres","photo":"https://i.pinimg.com/originals/aa/37/3d/aa373df6ccd5a03247f1d54a54a6d498.jpg","description":"Após a captura de Merry e Pippy pelos orcs, a Sociedade do Anel é dissolvida. Frodo e Sam seguem sua jornada rumo à Montanha da Perdição para destruir o anel e descobrem que estão sendo perseguidos pelo misterioso Gollum. Enquanto isso, Aragorn, o elfo e arqueiro Legolas e o anão Gimli partem para resgatar os hobbits sequestrados e chegam ao reino de Rohan, onde o rei Theoden foi vítima de uma maldição mortal de Saruman.","casting":"Elijah Wood, Viggo Mortensen, Ian McKellen, Cate Blanchett, Sean Astin, Orlando Bloom"}]
+[
+    {
+        "id": "1",
+        "name": "Breaking Bad",
+        "photo": "https://i.pinimg.com/564x/43/26/e5/4326e5fca390273537896dfa17f2b018.jpg",
+        "description": "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.",
+        "casting": "Bryan Cranston,Aaron Paul,Anna Gunn"
+    },
+    {
+        "id": "2",
+        "name": "Jhon Wick",
+        "photo": "https://i.pinimg.com/736x/ed/3d/f4/ed3df4cffbfafec150989b666ae9a68a.jpg",
+        "description": "John Wick é um lendário assassino de aluguel aposentado, lidando com o luto após perder o grande amor de sua vida. Quando um gângster invade sua casa, mata seu cachorro e rouba seu carro, ele é forçado a voltar à ativa e inicia sua vingança.",
+        "casting": "Alfie Allen, Dean Winters, John Leguizamo, Keanu Reeves, Michael Nyqvist, Willem Dafoe"
+    },
+    {
+        "id": "3",
+        "name": "Black Summer",
+        "photo": "https://i.pinimg.com/736x/e6/5a/3a/e65a3a4a13f4c0533bc1a74dd38673fb.jpg",
+        "description": "Nos primeiros dias de um sombrio apocalipse zumbi, estranhos se unem para sobreviver e voltar para aqueles que amam.",
+        "casting": "Jaime King,Justin Chu Cary,Christine Lee"
+    },
+    {
+        "id": "4",
+        "name": "A Era do Gelo 4",
+        "photo": "https://i.pinimg.com/originals/71/63/5e/71635ee4e257edbef3f71e60b8226749.jpg",
+        "description": "A louca perseguição de Scrat sempre à caça de sua noz inquieta - perseguição à qual ele tem se dedicado desde os primórdios dos tempos - tem consequências que mudam o mundo e causam um cataclismo continental que leva Manny, Diego e Sid a viverem a maior aventura de todos os tempos.",
+        "casting": "Alessandra Vieira, Angélica Borges, Carolina Vieira,Christiane Louise, Carlos Gesteira"
+    },
+    {
+        "id": "5",
+        "name": "The Witcher",
+        "photo": "https://i.pinimg.com/736x/6c/40/3e/6c403ecb280e490fc89d6c58439158a4.jpg",
+        "description": "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.",
+        "casting": "Henry Cavill,Anya Chalotra,Freya Allan"
+    },
+    {
+        "id": "6",
+        "name": "O Mentalista",
+        "photo": "https://i.pinimg.com/originals/69/d2/ab/69d2ab8af047c6698ddeb7af447d96e6.jpg",
+        "description": "Um famoso (médium) se autointitula e começa a trabalhar como consultor do California Bureau of Investigation para encontrar (Red John), o louco que matou sua esposa e filha.",
+        "casting": "Amanda Righetti,Owain Yeoman ,Tim Kang,Robin Tunney,Simon Baker"
+    },
+    {
+        "id": "7",
+        "name": "Narcos",
+        "photo": "https://br.web.img2.acsta.net/pictures/15/07/29/14/06/297599.jpg",
+        "description": "A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.",
+        "casting": "Wagner Moura,Pedro Pascal,Boyd Holbrook"
+    },
+    {
+        "id": "8",
+        "name": "O Senhor dos Anéis: A Sociedade do Anel",
+        "photo": "https://i.pinimg.com/564x/1a/49/7f/1a497fdb8d52cce17e37bb7f062c8603.jpg",
+        "description": "Em uma terra fantástica e única, um hobbit recebe de presente de seu tio um anel mágico e maligno que precisa ser destruído antes que caia nas mãos do mal. Para isso, o hobbit Frodo tem um caminho árduo pela frente, onde encontra perigo, medo e seres bizarros. Ao seu lado para o cumprimento desta jornada, ele aos poucos pode contar com outros hobbits, um elfo, um anão, dois humanos e um mago, totalizando nove seres que formam a Sociedade do Anel.",
+        "casting": "Elijah Wood, Viggo Mortensen, Ian McKellen, Cate Blanchett, Sean Astin, Orlando Bloom"
+    },
+    {
+        "id": "9",
+        "name": "O Senhor dos Anéis: As duas torres",
+        "photo": "https://i.pinimg.com/originals/aa/37/3d/aa373df6ccd5a03247f1d54a54a6d498.jpg",
+        "description": "Após a captura de Merry e Pippy pelos orcs, a Sociedade do Anel é dissolvida. Frodo e Sam seguem sua jornada rumo à Montanha da Perdição para destruir o anel e descobrem que estão sendo perseguidos pelo misterioso Gollum. Enquanto isso, Aragorn, o elfo e arqueiro Legolas e o anão Gimli partem para resgatar os hobbits sequestrados e chegam ao reino de Rohan, onde o rei Theoden foi vítima de uma maldição mortal de Saruman.",
+        "casting": "Elijah Wood, Viggo Mortensen, Ian McKellen, Cate Blanchett, Sean Astin, Orlando Bloom"
+    },
+    {
+        "id": "10",
+        "name": "John Wick: Um Novo Dia Para Matar",
+        "photo": "https://i.pinimg.com/564x/61/8e/44/618e4481183d9d09e7d5d812fad60ee0.jpg",
+        "description": "John Wick é forçado a deixar a aposentadoria mais uma vez por causa de uma promessa antiga e viaja para Roma, com o objetivo de ajudar um velho amigo a derrubar uma organização secreta, perigosa e mortal de assassinos procurados em todo o mundo.",
+        "casting": "Peter Stormare, Franco Nero, Riccardo Scamarcio, Alfie Allen, Dean Winters, John Leguizamo, Keanu Reeves, Michael Nyqvist, Willem Dafoe"
+    }
+]
