@@ -4,7 +4,6 @@ const putMovies = {
     putMovie: (req, res, movies) => {
         const { name, photo, description, casting } = req.body;
         const { id } = req.params;
-        const movie = { id, name, photo, description, casting };
         const movieIndex = movies.find(movie => movie.id === id);
         if(movieIndex < 0) return res.status(400).json("Movie not found!");
         movieIndex.id = id;
